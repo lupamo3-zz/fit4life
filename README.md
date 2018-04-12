@@ -38,5 +38,5 @@
   * JavaScript
   
   ## License.
-  * MIT (c) 2018. 
+  ### MIT (c) 2018. 
 
