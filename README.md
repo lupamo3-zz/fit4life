@@ -33,6 +33,7 @@
 4. To run click the index.html file
   
   ## Known Bugs. 
+  No known bugs.
   
   ## Technologies Used.
   * HTML
