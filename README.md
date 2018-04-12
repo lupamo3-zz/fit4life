@@ -1,6 +1,7 @@
 # fit4life
- 
-                                                # FIT4LIFE
+
+
+#                                                FIT4LIFE
  
  # Introduction: 
  Fit4Life is a web-based application that serves as a fitness calculator and fitness guide. Through our fitness calculator you're able to get your Body Mass Index(BMI) and how many Kilo Grams(kg's) you can lose over a certain period of time. Our fitness guide advices on the activities that can help in the weight loss journey. There is also a meal plan to be followed in-order to achieve our goals. 
