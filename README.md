@@ -23,9 +23,10 @@
 * Norbert Anjichi [@lupamo3](https://github.com/lupamo3)
 
 ## Project Demonstration. 
-Body Mass Index (BMI) | Height in Metres | Divide by Your weight 
+Goal                  | Height/Weight    | Duration/Time 
 ----------------------| -----------------| --------------------
-Calories to lose per day| Weight in KGs to drop | Duration taken                                
+Calories to lose per day| Weight in KGs to drop | Duration taken
+Body Mass Index (BMI) | Height in Metres | Divide by Your weight 
 
 
 
