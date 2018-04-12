@@ -17,10 +17,10 @@
 
 
 ## Team Members.
-* Trevor Shaka [@tshakam]
-* Anthony Mwangi @anthonymwangi072
+* Trevor Shaka [@tshakam](https://github.com/tshakam)
+* Anthony Mwangi [@anthonymwangi072](https://github.com/anthonymwangi072)
 * Lee Mutahi Mureithi [@lee-m-m](https://github.com/lee-m-m)
-* Norbert Anjichi @lupamo3
+* Norbert Anjichi [@lupamo3](https://github.com/lupamo3)
 
 ## Project Demonstration. 
 
