@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>fit4life</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+		<style>
+		/*h1 {
+		font-size: 80px;
+		}
+		h2 {
+		font-size: 40px;
+		}
+		p {
+		font-size: 16px;
+		}*/
+		</style>
+	</head>
+	<body>
+		<center>
+		<div class="backgroundImage">
+			<h1 id="fit">FIT 4 LIFE</h1>
+			<h2 id="Tracker">Fitness Tracker</h2>
+			</br>
+			<div id="text">
+					<p>Our Website will be a fitness calculator that will allow the user to put in the number of potential kilograms they would like to loose within a certain time frame. With that data the website will be able to take that information and convert  it to the number of calories they will need to loose within the specified time frame. For instance, if the user would like to loose 5kgs within a week the website will change the 5kgs into calories and divide that number evenly between the 7 days of a week. It will then suggest using the calories per day figure what exercises can be done to achieve the number of calories that should be lost per day to reach the 5kgs. It will also give a certain meal plan to follow in-order to achieve this aim of loosing weight. Display will be through pie charts and graphs.</p>
+			</div>
+		</div>
+		<!-- <div class="row">
+			<div class="col-md-6">
+				<h1>Your Weight</h1>
+				<form action="/action_page.php">
+						<br>
+						<input type="text" value>
+						<br>
+					</form>
+					<br>
+					<h1>How much do you want to loose</h1>
+				<form action="/action_page.php">
+						<br>
+						<input type="text" value>
+						<br>
+					</form>
+					<br>
+					<h1>Number of Days</h1>
+				<form action="/action_page.php">
+						<br>
+						<input type="text" value>
+						<br>
+					</form>
+					<br>
+				</div>
+				<div class="col-md-6">
+					<h2>BMI</h2>
+					<br>
+					<input type="text" value>
+					<br>
+			</form>
+		</div>
+	</div> -->
+
+	<div class="container">
+	<div id=bmihead>
+		<h1> So, How fit are you? </h1>
+		<p> Lets start with your Body mass Index to calculate just how much fat you have in your body </p>
+	</div>
+		<div class="row">
+			<div class="col-md-6 img1">
+				<img src="images/water.jpeg" alt="" height="250" width="400">
+			</div>
+			<div class="col-md-6 bm1">
+					<h1>Body Mass Index Calculator</h1>
+					<p>Enter your height: <input type="text" class="form-control" id="height"/>
+					    <select type="multiple" id="heightunits">
+					        <option value="metres" selected="selected">metres</option>
+					        <option value="inches">inches</option>
+					    </select>
+					</p>
+					<p>Enter your weight: <input type="text"class="form-control" id="weight"/>
+					    <select type="multiple" id="weightunits">
+					        <option value="kg" selected="selected">kilograms</option>
+					        <option value="lb">pounds</option>
+					    </select>
+					</p>
+					<input type="submit" value="computeBMI" onclick="computeBMI();">
+					<h1>Your BMI is: <span id="output">?</span></h1>
+					<h2>This means you are: <span id="comment"> ?</span> </h2>
+				</div>
+			</div>
+		</div>
+		<div id="BMI calculation">
+
+		<div class="row">
+			<div class="col-md-6 cal1">
+					<h1>Calories per Kg</h1>
+					<form id="weight">
+						<div class="form-group">
+							<label for="lossweight"> how many dropped kgs </label>
+							<input type="text" class="form-control" id="lossweight">
+						</div>
+					<br>
+					<div class="form-group">
+						<label for="days"> how long in days (do you want to take) </label>
+						<input type="text" class="form-control" id="days">
+					</div>
+					<button type="" class="btn">Lets go!</button>
+					 <h1>You need to lose: <h1 id="show-total"></h1></h1><p>calories per day<p><br>
+				</form>
+			</div>
+			<div class="col-md-6 run1">
+				<img src="images/run.jpeg"alt="" height="250" width="400">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4">
+				<h2>Running</h2>
+				<img src="images/black.png">
+			</div>
+			<div class="col-md-4">
+				<h2>Cycling</h2>
+				<img src="images/cycling (1).png">
+			</div>
+			<div class="col-md-4">
+				<h2>Swimming</h2>
+				<img class="animate" src="images/pip.png">
+			</div>
+		</div>
+		</center>
+		<div class="col-md-12 subscription">
+			<center>
+		    <h1 class="textit">Get fitness routines delivered to your email here</h1>
+			</center>
+			<div class="mailing">
+	        <form action="https://facebook.us12.list-manage.com/subscribe/post?u=f4ac52a41feaa275e6b545f49&amp;id=2dd6eae8ba" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	        <input type="email" name="email" class="formStyle"/>
+	        <a href="#" class="formButton">Subscribe</a>
+	      </form>
+	    </div>
+		</div>
+		  </div>
+
+		<script src="js/jquery-3.3.1.js"></script>
+		<script src="js/myscripts.js"></script>
+	</body>
+</html>
