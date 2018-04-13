@@ -37,14 +37,14 @@ Body Mass Index (BMI) | Height in Metres | Divide by Your weight
 4. To run click the index.html file
   
   ## Known Bugs. 
-  No known bugs.
+  There are currently no known bugs experienced on the website but feedback on bugs encountered during viewing of the page will be highly appreciated and will go a long way into making the website better for the users. The only reason that the website may fail to load is if the Internet connection is slow or disconnected which will require you to troubleshoot your Internet connection.
   
   ## Technologies Used.
-  * HTML
-  * CSS
-  * Bootstrap
-  * JavaScript
+  * HTML.
+  * CSS.
+  * Bootstrap.
+  * JavaScript.
   
   ## License.
-  ### MIT (c) 2018. 
+  ### MIT (c) 2018. FIT4LIFE
 
